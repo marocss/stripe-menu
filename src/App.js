@@ -1,12 +1,13 @@
 import React from 'react';
 import GlobalStyles from './styles/global'
 import Layout from './components/Layout'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <>
       <Layout>
-        <h2>App</h2>
+        <Navbar />
       </Layout>
 
       <GlobalStyles />
